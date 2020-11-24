@@ -50,6 +50,7 @@ A curated list of awesome resources about virtualization.
 
 - [Intel® 64 and IA-32 architectures software developer's manual volume 3C](https://software.intel.com/sites/default/files/managed/7c/f1/326019-sdm-vol-3c.pdf)
 - [VMCS Layout](https://github.com/LordNoteworthy/cpu-internals/blob/master/VMCS-Layout.pdf)
+- [VMX Caps](https://htmlpreview.github.io/?https://github.com/honorarybot/VmxCaps/blob/master/vmx.html)
 
 ### AMD
 
@@ -123,9 +124,14 @@ A curated list of awesome resources about virtualization.
     - [zpp_hypervisor](https://github.com/eyalz800/zpp_hypervisor)
     - [orange_slice](https://github.com/gamozolabs/orange_slice)
     - [cloud-hypervisor](https://github.com/cloud-hypervisor/cloud-hypervisor)
+    - [uhyve](https://github.com/hermitcore/uhyve)
+    - [mythril](https://github.com/mythril-hypervisor/mythril)
   - 2020:
     - [MiniVisorPkg](https://github.com/tandasat/MiniVisorPkg)
     - [MicroV](https://github.com/Bareflank/MicroV)
+    - [Zelda.RISCV](https://github.com/chillancezen/Zelda.RISCV.Emulator)
+    - [napoca](https://github.com/napocahv/napoca)
+    - [barbervisor](https://github.com/Cisco-Talos/Barbervisor)
 
 ## Mainstream Hypervisors Documentation
 
@@ -155,6 +161,7 @@ A curated list of awesome resources about virtualization.
 
 ### Hyper-V
 
+- [Hyper-V internals researches (2006-2019)](https://github.com/gerhart01/Hyper-V-Internals/blob/master/HyperResearchesHistory.md)
 - 2015:
     - [Battle of SKM and IUM](http://www.alex-ionescu.com/blackhat2015.pdf)
     - [Ring 0 to Ring -1 Attacks](http://www.alex-ionescu.com/syscan2015.pdf)
@@ -169,6 +176,9 @@ A curated list of awesome resources about virtualization.
 - 2019:
     - [Growing Hypervisor 0day with Hyperseed](http://paper.vulsee.com/OffensiveCon2019/2019_02%20-%20OffensiveCon%20-%20Growing%20Hypervisor%200day%20with%20Hyperseed.pdf)
     - [VBS and VSM Internals](https://raw.githubusercontent.com/saaramar/Publications/master/BluehatIL_VBS_meetup/VBS_Internals.pdf)
+- 2020:
+    - [Hyper-V #0x1 - Hypercalls part 1](https://foxhex0ne.blogspot.com/2020/05/hyper-v-0x1-hypercalls-part-1.html)
+    - [Hyper-V LIS](https://re.alisa.sh/notes/Hyper-V-LIS.html)
 - [Virtualization Documentation](https://docs.microsoft.com/fr-fr/virtualization/)
 - [Hyper-V technet](https://technet.microsoft.com/en-us/library/mt169373(v=ws.11).aspx)
 - [Hyper-V Internals](http://hvinternals.blogspot.com)
@@ -206,6 +216,8 @@ A curated list of awesome resources about virtualization.
 - [Hypervisor Memory Forensics](http://www.s3.eurecom.fr/docs/raid13_graziano.pdf) - [[Slides]](http://s3.eurecom.fr/~emdel/talks/grazianolanzi_hitb.pdf)
 - [Who Watches The Watcher? Detecting Hypervisor Introspection from Unprivileged Guests](https://dfrws.org/sites/default/files/session-files/paper_who_watches_the_watcher_detecting_hypervisor_introspection_from_unprivileged_guests.pdf)
 - [DRAKVUF Black-box Binary Analysis for in-depth execution tracing of arbitrary binaries](https://drakvuf.com)
+- [Patchguard: Detection of Hypervisor Based Introspection - P1](https://revers.engineering/patchguard-detection-of-hypervisor-based-instrospection-p1/)
+- [Patchguard: Detection of Hypervisor Based Introspection - P2](https://revers.engineering/patchguard-detection-of-hypervisor-based-instrospection-p2/)
 
 ## Attacking Hypervisors
 
@@ -214,6 +226,8 @@ A curated list of awesome resources about virtualization.
 - [Lessons Learned from Eight Years of Breaking Hypervisors](https://www.youtube.com/watch?v=PJWJjb0uxXE) - [[Slides]](https://www.blackhat.com/docs/eu-14/materials/eu-14-Wojtczuk-Lessons-Learned-From-Eight-Years-Of-Breaking-Hypervisors.pdf)
 - [Attacking Hypervisors Using Firmware And Hardware](https://www.youtube.com/watch?v=nyW3eTobXAI) - [[Slides]](http://c7zero.info/stuff/AttackingHypervisorsViaFirmware_bhusa15_dc23.pdf)
 - [The Arms Race Over Virtualization](https://www.youtube.com/watch?v=nWvg7NKwOjg) - [[Slides]](https://www.blackhat.com/docs/us-16/materials/us-16-Luan-Ouroboros-Tearing-Xen-Hypervisor-With-The-Snake.pdf)
+- [Glitches in the Matrix – Escape via NMI](https://www.cpl0.com/blog/?p=46)
+- [Hypervisor Vulnerability Research - State of the Art](https://alisa.sh/slides/HypervisorVulnerabilityResearch2020.pdf)
 
 ### KVM
 
